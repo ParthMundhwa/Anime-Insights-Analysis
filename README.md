@@ -36,7 +36,7 @@ Built as part of a personal data visualization and API exploration project.
 | **Power Query (M)** | Data ingestion & transformation |
 | **DAX** | Measures & calculated columns |
 | **Jikan REST API** | Source of anime metadata |
-| *(Optional)* Python | Alternate data extraction |
+
 
 ---
 
