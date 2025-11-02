@@ -49,7 +49,7 @@ Power BI Desktop · Power Query (M) · DAX · Jikan API
 
 | Overview | Genres |
 |---|---|
-| ![Overview](screenshots/overview.png) | ![Genres](screenshots/genres.png) |
+| ![Anime By Genre](screenshots/Anime By Genre.png) | ![Genres](screenshots/genres.png) |
 
 > Add clean screenshots exported from Power BI (`File → Export → Image`) to `/screenshots`.
 
