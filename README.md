@@ -47,9 +47,9 @@ Power BI Desktop · Power Query (M) · DAX · Jikan API
 
 ## 📸 Preview
 
-| Overview | Genres |
+| Anime By Genre | Anime By Production Studio | Popularity by Producer
 |---|---|
-| ![Anime By Genre](screenshots/AnimeByGenre.png) | ![Genres](screenshots/genres.png) |
+| ![Anime By Genre](screenshots/AnimeByGenre.png) | ![Anime By Production Studio](screenshots/AnimeByProductionStudio.png) | ![Popularity by Producer](screenshots/PopularitybyProducer.png) 
 
 > Add clean screenshots exported from Power BI (`File → Export → Image`) to `/screenshots`.
 
