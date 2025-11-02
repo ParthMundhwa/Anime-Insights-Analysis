@@ -50,17 +50,6 @@ Built as part of a personal data visualization and API exploration project.
 
 ---
 
-## 📸 Dashboard Preview
-
-| Overview Page | Genre Breakdown |
-|---------------|-----------------|
-| *(add overview screenshot here)* | *(add genre chart screenshot here)* |
-
-> Add dashboard visuals by exporting images from Power BI (`File → Export → Image`) and dropping them into a `/screenshots/` folder.
-
-
----
-
 ## 📊 How to Use This Template
 
 1. **Download `CapstoneProjectAnime.pbit`** from the `report/` folder  
