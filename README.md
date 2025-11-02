@@ -1,81 +1,77 @@
-# 🎌 Power BI — Top Airing Anime Insights Dashboard
+# 🎌 Power BI — Top Airing Anime Insights (Jikan API)
 
-An interactive Power BI dashboard that visualizes insights from the **Top Airing Anime** dataset using the public Jikan REST API.  
-The report highlights trends in rankings, genres, studios, scores, and popularity across currently airing titles.
+[![Made with Power BI](https://img.shields.io/badge/Made%20with-Power%20BI-yellow)](#)
+[![Data Source: Jikan](https://img.shields.io/badge/Data-Jikan%20API-blue)](https://jikan.moe)
+![Status](https://img.shields.io/badge/Status-Active-success)
+
+An interactive **Power BI** dashboard that visualizes the **Top Airing Anime** using the public **Jikan REST API**. It explores rankings, genres, studios, scores, popularity, and seasonal trends.
 
 ---
 
-## 🧠 Project Overview
+## 🔎 Highlights
 
-This dashboard aims to explore and analyze data about the most popular anime that are currently airing — to answer questions like:
-
-- 📊 Which anime are the most popular this season?
-- 🏆 What genres dominate the top-ranked titles?
-- ⚡ How do user scores compare across different studios?
-- 📈 Are there trends across years or seasons?
-
-Built as part of a personal data visualization and API exploration project.
+- Top titles by **score**, **popularity**, and **members**
+- Genre and studio **distributions** with cross-filtering
+- Year/season breakdowns and KPIs
+- Clean, mobile-friendly layout with slicers
 
 ---
 
 ## 📥 Data Source
 
-- **API:** `https://api.jikan.moe/v4/top/anime?filter=airing`  
-- **Refresh Strategy:**  
-  - Data pulled via **Power Query (M Language)** inside Power BI Desktop  
-  - Supports pagination for multiple pages  
-- Optional: Can also be fetched using Python (see `scripts/` folder if added)
+- API: `https://api.jikan.moe/v4/top/anime?filter=airing`
+- Ingestion: **Power Query (M)** inside Power BI (handles pagination)
+- Optional: Python fetch script (future enhancement)
+
+> Respect Jikan rate limits; refresh on demand rather than very frequently.
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🧰 Tools
 
-| Tool | Purpose |
-|------|---------|
-| **Power BI Desktop** | Report authoring & visuals |
-| **Power Query (M)** | Data ingestion & transformation |
-| **DAX** | Measures & calculated columns |
-| **Jikan REST API** | Source of anime metadata |
-
+Power BI Desktop · Power Query (M) · DAX · Jikan API
 
 ---
 
-## 🧱 Key Features
+## 🚀 Quickstart
 
-✅ Clean, responsive layout with filters  
-✅ Genre and studio breakdown charts  
-✅ Score and popularity KPIs  
-✅ Seasonal and year-level insights  
-✅ Cards & drilldowns for deeper exploration  
+1. **Download** the template from `report/`  
+   - `report/CapstoneProjectAnime.pbit`
+2. **Open** in Power BI Desktop
+3. **Refresh** to pull latest data (or point to a curated CSV if you add one)
+4. Explore the pages and slicers
 
----
-
-## 📊 How to Use This Template
-
-1. **Download `CapstoneProjectAnime.pbit`** from the `report/` folder  
-2. Open it with **Power BI Desktop**  
-3. Load or replace the data source (if needed)  
-4. Refresh the dashboard and explore!  
+> If your refresh is slow, limit pages of the API in your M query.
 
 ---
 
-## 🧩 Future Improvements
+## 📸 Preview
 
-- Add time-based refresh through scheduled cloud dataset  
-- Publish to Power BI Service or embed live report  
-- Expand to include trends for completed and upcoming anime  
-- Add sentiment analysis using anime reviews
+| Overview | Genres |
+|---|---|
+| ![Overview](screenshots/overview.png) | ![Genres](screenshots/genres.png) |
+
+> Add clean screenshots exported from Power BI (`File → Export → Image`) to `/screenshots`.
 
 ---
 
-## 🔗 Credits
+---
 
-- **Data Source:** Jikan REST API (https://jikan.moe)  
-- **Dashboard Author:** _Parth Mundhwa_  
+## 🔧 Future Improvements
+
+- Add Python script to export curated CSV (and commit to `/data/curated/`)
+- Publish to Power BI Service and share a public link (if allowed)
+- Add measures list (DAX) and data model diagram
+- Trend page for “airing now” vs historical seasons
+
+---
+
+## 🙌 Credits
+
+- Data: **Jikan REST API** (community-maintained MyAnimeList API) → https://jikan.moe
 
 ---
 
 ## 🪪 License
 
-This project is licensed under the MIT License — you're free to reuse and modify.
-
+MIT — feel free to reuse with attribution.
