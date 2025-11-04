@@ -1,4 +1,4 @@
-# 🎌 Power BI — Top Airing Anime Insights (Jikan API)
+# Power BI — Top Airing Anime Insights (Jikan API)
 
 [![Made with Power BI](https://img.shields.io/badge/Made%20with-Power%20BI-yellow)](#)
 [![Data Source: Jikan](https://img.shields.io/badge/Data-Jikan%20API-blue)](https://jikan.moe)
@@ -51,18 +51,7 @@ Power BI Desktop · Power Query (M) · DAX · Jikan API
 |---|---|
 | ![Anime By Genre](screenshots/AnimeByGenre.png) | ![Anime By Production Studio](screenshots/AnimeByProductionStudio.png) | ![Popularity by Producer](screenshots/PopularitybyProducer.png) 
 
-> Add clean screenshots exported from Power BI (`File → Export → Image`) to `/screenshots`.
 
----
-
----
-
-## 🔧 Future Improvements
-
-- Add Python script to export curated CSV (and commit to `/data/curated/`)
-- Publish to Power BI Service and share a public link (if allowed)
-- Add measures list (DAX) and data model diagram
-- Trend page for “airing now” vs historical seasons
 
 ---
 
